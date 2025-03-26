@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Basic HTML Page</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f4f4f4;
+                color: #333;
+                padding: 20px;
+                text-align: center;
+            }
+            h1 {
+                color: #4CAF50;
+                font-size: 3rem;
+                margin-bottom: 20px;
+            }
+            p {
+                font-size: 1.2rem;
+                margin-bottom: 15px;
+            }
+            a {
+                color: #4CAF50;
+                text-decoration: none;
+                font-weight: bold;
+            }
+            a:hover {
+                text-decoration: underline;
+            }
+            button {
+                padding: 10px 20px;
+                font-size: 1rem;
+                background-color: #4CAF50;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+            button:hover {
+                background-color: #45a049;
+            }
+            img {
+                max-width: 100%;
+                height: auto;
+                cursor: pointer;
+                margin-top: 20px;
+                transition: transform 0.3s ease; /* Add transition for smooth effect */
+            }
+            img:hover {
+                transform: scale(1.1); /* Scale image to 110% on hover */
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Welcome to My Page</h1>
+        <p>Simple website made with Html and css
+            (dont click the button)
+</p>
+<br><button onclick="window.location.href='https://www.youtube.com/watch?v=9S3GL6Ou2Zg'">Click Me</button><br>
+
+        <img src="media/image.png" alt="Interactive Image" onclick="alert('Image clicked!')">
+
+        <br>Ignore this i just wanted to add an interactive image<br>
+    </body>
+    </html>
